@@ -54,7 +54,7 @@ fi
 # Use correct domain style
 case ${DOMAIN} in
   *"github.com"*)
-  echo "Switching to github.io URL style"
+  echo "Switching to github.com URL style"
     DOMAIN="${DOMAIN}/theme.park"
     ;;
 esac
